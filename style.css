@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f8fb;
+  color: #222;
+}
+
+.header {
+  background-color: #005f73;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar a {
+  margin-left: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 2rem;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 90vh;
+  background: #e0f7fa;
+}
+
+.home-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #0ef;
+  box-shadow: 0 0 30px #0ef;
+}
+
+.home-content {
+  max-width: 500px;
+}
+
+.home-content h1 {
+  font-size: 2.8rem;
+  margin: 0.3rem 0;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.home-scl a img {
+  margin: 0.5rem 0.5rem 0 0;
+  transition: transform 0.3s ease;
+}
+
+.home-scl a img:hover {
+  transform: scale(1.2);
+}
+
+.btn-box {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 10px 20px;
+  background: #0ef;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: #081b29;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 0 5px #0ef, 0 0 15px #0ef;
+}
+
+.contact {
+  padding: 4rem 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.contact-text h2 {
+  font-size: 2.5rem;
+  color: #005f73;
+}
+
+.contact-text p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.last-text {
+  text-align: center;
+  padding: 1rem;
+  background-color: #005f73;
+  color: white;
+  margin-top: 2rem;
+}
